@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+    <title>Same Knit Different Day</title>
+  </head>
+  <body>
+    <h1>Same Knit Different Day</h1>
+    <div class="filter-bar">
+      <form class="filter">
+        <div class="item">
+          <label for="">Category</label>
+          <select name="category">
+            <option value="">----</option>
+            <option value="Knitting">Knitting</option>
+            <option value="Crochet">Crochet</option>
+          </select>
+        </div>
+        <div class="item">
+          <label for="">Needle Size</label>
+          <select name="Needle Size">
+            <option value="">----</option>
+            <option value="Smaller than 2mm">Smaller than 2mm"</option>
+            <option value="2mm">2mm</option>
+            <option value="3mm">3mm</option>
+            <option value="4mm">4mm</option>
+            <option value="5mm">5mm</option>
+            <option value="6mm">6mm</option>
+            <option value="7mm">7mm</option>
+            <option value="8mm">8mm</option>
+            <option value="9mm">9mm</option>
+            <option value="10mm">10mm</option>
+            <option value="Larger than 10mm">Larger than 10mm</option>
+          </select>
+        </div>
+        <div class="item">
+          <label for="">Yarn Weight</label>
+          <select name="Yarn Weight">
+            <option value="">----</option>
+            <option value="0 - Lace weight">0 - Lace Weight</option>
+            <option value="1 - Super Fine">1 - Super Fine</option>
+            <option value="2 - Fine">2 - Fine</option>
+            <option value="3 - Light">3 - Light</option>
+            <option value="4 - Medium">4 - Medium</option>
+            <option value="5 - Bulky">5 - Bulky</option>
+            <option value="6 - Super Bulky">6 - Super Bulky</option>
+            <option value="7 - Jumbo">7 - Jumbo</option>
+          </select>
+        </div>
+        <div class="item">
+          <label for="">Difficulty</label>
+          <select name="Difficulty">
+            <option value="">----</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Beginner - Intermediate">
+              Beginner - Intermediate
+            </option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Intermediate - Advanced">
+              Intermediate - Advanced
+            </option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </form>
+      <div class="countResults">Found <b id="count">5</b> Results</div>
+    </div>
+
+    <div class="main-secion">
+      <p id="input"></p>
+    </div>
+    <div class="output-section">
+      <p id="output"></p>
+      <img src="#" alt="" />
+    </div>
+  </body>
+</html>

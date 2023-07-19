@@ -1,0 +1,75 @@
+body {
+  min-height: 100vh;
+  font-family: monospace;
+  /* background-image: linear-gradient(to bottom right, #C3B5FE, #CCA5FD); */
+  background-color: #e5e5f7;
+  background-image: linear-gradient(#afe1fa 1px, transparent 1px),
+    linear-gradient(to right, #afe1fa 1px, #cca5fd 1px);
+  /* opacity: 50%; */
+  background-size: 80px 80px;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+
+.filter-bar {
+  background-color: #ffffff;
+  opacity: 100%;
+  width: 1000px;
+  max-width: 100%;
+  margin: 50px auto 0;
+  border: #7d8bfb;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.filter {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 33.333%, 33.333%;
+  column-gap: 1%;
+  row-gap: 10px;
+}
+
+.filter .item {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.filter .item select,
+.filter .submit button {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background-color: #faa6f3;
+  outline: none;
+  font-family: monospace;
+}
+
+.filter .item label {
+  display: block;
+  width: 40%;
+  padding: 0 10px;
+  color: #ff6fc1;
+}
+
+.filter .submit button {
+  background-color: #f7ea6e;
+  border-radius: 5px;
+  border: solid;
+  border-color: #7d8bfb;
+  padding: 5px;
+}
+
+.countResults {
+  font-size: large;
+  text-align: center;
+  padding: 20px;
+}
+
+/* INSTALL FONT FAMILY */
