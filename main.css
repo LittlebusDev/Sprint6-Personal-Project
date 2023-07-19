@@ -26,7 +26,7 @@ h1 {
 }
 
 .filter {
-  padding: 20px;
+  padding: 30px;
   display: grid;
   grid-template-columns: 33.333%, 33.333%;
   column-gap: 1%;
@@ -70,6 +70,30 @@ h1 {
   font-size: large;
   text-align: center;
   padding: 20px;
+}
+
+#patternList {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#patternList .pattern img {
+  width: 250px;
+  height: 400px;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#list .pattern {
+  background-color: #e5e5f7;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#list .pattern .patternName {
+  font-weight: bold;
 }
 
 /* INSTALL FONT FAMILY */
